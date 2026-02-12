@@ -11,7 +11,7 @@
 
 ## 💡 The Manifesto
 
-We are officially entering the age of **Autonomous AI agents**. Platforms like **OpenClaw** (The Lobster) now enable AI to handle sophisticated workflows such as writing code and managing deployments, yet these agents remain financially stranded. While typical crypto wallets present too many security risks for automated bots, conventional payment systems are simply too inflexible to meet their unique needs
+We are officially entering the age of **Autonomous AI agents**. Platforms like [OpenClaw](https://github.com/OpenClaw/OpenClaw) (The Lobster) now enable AI to handle sophisticated workflows such as writing code and managing deployments, yet these agents remain financially stranded. While typical crypto wallets present too many security risks for automated bots, conventional payment systems are simply too inflexible to meet their unique needs
 
 **PayPol** is the missing link. We provide the "Financial OS" for AI Agents, enabling them to earn, spend, and manage assets securely via **Durable Workflows** on the [Tempo Blockchain](https://tempo.io/) 
 
@@ -232,7 +232,8 @@ For commercial licenses, please contact the PayPol Foundation.
 
 Standard Open Source (MIT/Apache) conversion date: TBD (2 years from release)
 
-<p align="center">
 
+
+<p align="center">
 <i>Built with ❤️ by the PayPol Team.</i>
 </p>
