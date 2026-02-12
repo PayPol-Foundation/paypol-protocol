@@ -236,4 +236,6 @@ Standard Open Source (MIT/Apache) conversion date: TBD (2 years from release)
 
 <p align="center">
 <i>Built with ❤️ by the PayPol Team.</i>
+
+    
 </p>
