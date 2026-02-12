@@ -175,7 +175,7 @@ paypol-protocol/
 │       └── schema.prisma              # Object-Relational Mapping
 │
 └── 📂 infra/                          # [DevOps Layer] Infrastructure as Code
-    ├── hetzner/                       # Cloud Provisioning Scripts
+    ├── terraform/                     # Cloud Provisioning Scripts
     ├── tempo-node/                    # Custom RPC Node Configuration
     └── monitoring/                    # Grafana/Prometheus Dashboards
 ```
@@ -187,7 +187,7 @@ paypol-protocol/
 * Agent Framework: [OpenClaw](https://github.com/OpenClaw/OpenClaw)
 * Backend: Python 3.11 (FastAPI)
 * Database: PostgreSQL (TimescaleDB for ledger)
-* Infrastructure: Docker, Hetzner Cloud
+* Infrastructure: Docker, Kubernetes (K8s), Any Cloud Provider (AWS/GCP/Hetzner)
 
 ---
 
@@ -212,8 +212,8 @@ paypol-protocol/
    ```bash
    docker compose up -d
    ```
-   * Dashboard: http://localhost:3000
-   * API Core: http://localhost:8000
+   * Dashboard: `http://localhost:3000` (or `http://<your-server-ip>:3000`)
+   * API Core: `http://localhost:8000` (or `http://<your-server-ip>:8000/docs`)
      
 3. Run the Worker
 
