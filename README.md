@@ -11,9 +11,9 @@
 
 ## 💡 The Manifesto
 
-We are entering the era of **Autonomous AI Agents**. Tools like **OpenClaw** (The Lobster) allow AI to execute complex tasks—coding, browsing, deployment—yet they remain financially "unbanked". Traditional crypto wallets are too risky for bots, and standard payment gateways are too rigid.
+We are officially entering the age of **Autonomous AI agents**. Platforms like **OpenClaw** (The Lobster) now enable AI to handle sophisticated workflows such as writing code and managing deployments, yet these agents remain financially stranded. While typical crypto wallets present too many security risks for automated bots, conventional payment systems are simply too inflexible to meet their unique needs
 
-**PayPol** is the missing link. We provide the "Financial OS" for AI Agents, enabling them to earn, spend, and manage assets securely via **Durable Workflows** on the **Tempo Blockchain**.
+**PayPol** is the missing link. We provide the "Financial OS" for AI Agents, enabling them to earn, spend, and manage assets securely via **Durable Workflows** on the [Tempo Blockchain](https://tempo.io/) 
 
 **Why PayPol?**
 * **For Humans:** Sleep soundly knowing your agents have strict limits and a "Panic Button".
@@ -103,81 +103,81 @@ PayPol is engineered as a high-performance Monorepo to ensure scalability and de
 ```bash
 paypol-protocol/
 ├── .github/
-│   └── workflows/             # CI/CD Pipelines (Auto-deploy to Hetzner)
-├── .env.example               # Environment Configuration Template
-├── docker-compose.yml         # Local Development Orchestration
-├── Makefile                   # Shortcut Commands (make start, make deploy)
+│   └── workflows/                     # CI/CD Pipelines (Auto-deploy to Hetzner)
+├── .env.example                       # Environment Configuration Template
+├── docker-compose.yml                 # Local Development Orchestration
+├── Makefile                           # Shortcut Commands (make start, make deploy)
 │
-├── 📂 apps/                   # [Frontend Layer] Human Interaction Interfaces
-│   ├── dashboard/             # [Next.js] Command Center for Users
+├── 📂 apps/                           # [Frontend Layer] Human Interaction Interfaces
+│   ├── dashboard/                     # [Next.js] Command Center for Users
 │   │   ├── src/app/
-│   │   │   ├── agents/        # Agent Management & Limit Configuration
-│   │   │   ├── panic/         # 🚨 Panic Button UI (Emergency Reversal)
-│   │   │   └── logs/          # Real-time Agent Heartbeat Monitoring
+│   │   │   ├── agents/                # Agent Management & Limit Configuration
+│   │   │   ├── panic/                 # 🚨 Panic Button UI (Emergency Reversal)
+│   │   │   └── logs/                  # Real-time Agent Heartbeat Monitoring
 │   │   └── Dockerfile
 │   │
-│   ├── mobile/                # [React Native] iOS/Android Monitoring App
+│   ├── mobile/                        # [React Native] iOS/Android Monitoring App
 │   │   ├── src/screens/PanicScreen.tsx
 │   │   └── src/screens/WalletDetail.tsx
 │   │
-│   └── docs/                  # [Docusaurus] Developer Hub
-│       ├── docs/api/          # API Reference
-│       └── docs/skills/       # Integration Guides for OpenClaw
+│   └── docs/                          # [Docusaurus] Developer Hub
+│       ├── docs/api/                  # API Reference
+│       └── docs/skills/               # Integration Guides for OpenClaw
 │
-├── 📂 ecosystem/              # [Integration Layer] External Plugins
-│   ├── openclaw-skill/        # 🦞 Native Skill for OpenClaw Agents
+├── 📂 ecosystem/                      # [Integration Layer] External Plugins
+│   ├── openclaw-skill/                # 🦞 Native Skill for OpenClaw Agents
 │   │   ├── paypol_skill/
-│   │   │   ├── manifest.json  # Permission Scopes & Capabilities
-│   │   │   └── tools.py       # Logic: execute_payment(), check_limit()
-│   │   └── README.md          # Installation: "pip install paypol-skill"
+│   │   │   ├── manifest.json          # Permission Scopes & Capabilities
+│   │   │   └── tools.py               # Logic: execute_payment(), check_limit()
+│   │   └── README.md                  # Installation: "pip install paypol-skill"
 │   │
-│   └── github-action/         # ✅ Merit Pay Protocol (Feature 6)
-│       ├── action.yml         # CI/CD Integration
-│       └── src/index.js       # Trigger Fund Release on "Green Build"
+│   └── github-action/                 # ✅ Merit Pay Protocol (Feature 6)
+│       ├── action.yml                 # CI/CD Integration
+│       └── src/index.js               # Trigger Fund Release on "Green Build"
 │
-├── 📂 services/               # [Backend Layer] Core Microservices
-│   ├── api-gateway/           # [Nginx] Entrypoint & Rate Limiting
+├── 📂 services/                       # [Backend Layer] Core Microservices
+│   ├── api-gateway/                   # [Nginx] Entrypoint & Rate Limiting
 │   │   └── nginx.conf
 │   │
-│   ├── tempo-workers/         # 🧠 [Python] Durable Execution Engine (The Brain)
+│   ├── tempo-workers/                 # 🧠 [Python] Durable Execution Engine (The Brain)
 │   │   ├── src/
-│   │   │   ├── workflows/     # Business Logic & State Machines
-│   │   │   │   ├── payment_flow.py     # Standard Transfer Logic
-│   │   │   │   ├── escrow_flow.py      # Conditional Release Logic
-│   │   │   │   └── lobster_trap.py     # The "Lobster Trap" (15m Time-Lock)
-│   │   │   └── activities/    # Atomic Tasks & Side Effects
-│   │   │       ├── blockchain.py       # On-chain Tempo Interactions
-│   │   │       ├── notification.py     # Telegram/Slack Alerts
-│   │   │       └── verifier.py         # CI/CD Status Verification
+│   │   │   ├── workflows/             # Business Logic & State Machines
+│   │   │   │   ├── payment_flow.py    # Standard Transfer Logic
+│   │   │   │   ├── escrow_flow.py     # Conditional Release Logic
+│   │   │   │   └── lobster_trap.py    # The "Lobster Trap" (15m Time-Lock)
+│   │   │   └── activities/            # Atomic Tasks & Side Effects
+│   │   │       ├── blockchain.py      # On-chain Tempo Interactions
+│   │   │       ├── notification.py    # Telegram/Slack Alerts
+│   │   │       └── verifier.py        # CI/CD Status Verification
 │   │   └── Dockerfile
 │   │
-│   ├── risk-engine/           # 🛡️ [ML] Anomaly Detection System
-│   │   ├── model/             # Pre-trained Fraud Detection Models
-│   │   └── policy/            # Hard Rules (e.g., Max $50/day)
+│   ├── risk-engine/                   # 🛡️ [ML] Anomaly Detection System
+│   │   ├── model/                     # Pre-trained Fraud Detection Models
+│   │   └── policy/                    # Hard Rules (e.g., Max $50/day)
 │   │
-│   └── agent-auth/            # Identity Provider (API Key -> Wallet)
+│   └── agent-auth/                    # Identity Provider (API Key -> Wallet)
 │       └── src/routes/auth.py
 │
-├── 📂 packages/               # [Shared Layer] Libraries & Contracts
-│   ├── contracts/             # 📜 Tempo Smart Contracts (Solidity)
+├── 📂 packages/                       # [Shared Layer] Libraries & Contracts
+│   ├── contracts/                     # 📜 Tempo Smart Contracts (Solidity)
 │   │   ├── src/
-│   │   │   ├── AgentWallet.sol # Identity-bound Wallet Logic
-│   │   │   ├── TimeVault.sol   # Programmable Time-Lock (Feature 3)
-│   │   │   └── MeritPay.sol    # Output-Verification Logic (Feature 6)
-│   │   └── foundry.toml       # Blockchain Development Config
+│   │   │   ├── AgentWallet.sol        # Identity-bound Wallet Logic
+│   │   │   ├── TimeVault.sol          # Programmable Time-Lock (Feature 3)
+│   │   │   └── MeritPay.sol           # Output-Verification Logic (Feature 6)
+│   │   └── foundry.toml               # Blockchain Development Config
 │   │
-│   ├── sdk/                   # Universal Client Libraries
-│   │   ├── python/            # `pip install paypol-sdk`
-│   │   └── typescript/        # `npm install @paypol/sdk`
+│   ├── sdk/                           # Universal Client Libraries
+│   │   ├── python/                    # `pip install paypol-sdk`
+│   │   └── typescript/                # `npm install @paypol/sdk`
 │   │
-│   └── database/              # Data Persistence Layer
-│       ├── migrations/        # SQL Schema Migrations
-│       └── schema.prisma      # Object-Relational Mapping
+│   └── database/                      # Data Persistence Layer
+│       ├── migrations/                # SQL Schema Migrations
+│       └── schema.prisma              # Object-Relational Mapping
 │
-└── 📂 infra/                  # [DevOps Layer] Infrastructure as Code
-    ├── hetzner/               # Cloud Provisioning Scripts
-    ├── tempo-node/            # Custom RPC Node Configuration
-    └── monitoring/            # Grafana/Prometheus Dashboards
+└── 📂 infra/                          # [DevOps Layer] Infrastructure as Code
+    ├── hetzner/                       # Cloud Provisioning Scripts
+    ├── tempo-node/                    # Custom RPC Node Configuration
+    └── monitoring/                    # Grafana/Prometheus Dashboards
 ```
 
 ---
@@ -233,9 +233,6 @@ For commercial licenses, please contact the PayPol Foundation.
 Standard Open Source (MIT/Apache) conversion date: TBD (2 years from release)
 
 <p align="center">
-Giving <b>Wallets</b> to <b>Lobsters</b>. 🦞💸
-
-
 
 <i>Built with ❤️ by the PayPol Team.</i>
 </p>
