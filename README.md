@@ -221,7 +221,9 @@ paypol-protocol/
    cd services/tempo-workers
    python worker.py
    ```
-   
+
+---
+
 ## 📜 License & Copyright
 
 Business Source License 1.1 (BSL)
