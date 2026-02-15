@@ -19,7 +19,7 @@
 
 **PayPol** is a monolithic, enterprise-grade Web3 Financial Operating System. Designed for DAOs, decentralized startups, and modern enterprises, PayPol bridges the gap between trustless decentralized finance (DeFi) and traditional corporate treasury management. 
 
-Built natively on the high-performance **Tempo** network and integrated with **OpenClaw** for agentic automation, PayPol transforms how organizations manage, secure, and dispatch on-chain liquidity.
+Built natively on the high-performance **Tempo** and integrated with **OpenClaw** for agentic automation, PayPol transforms how organizations manage, secure, and dispatch on-chain liquidity.
 
 ---
 
@@ -110,7 +110,7 @@ PayPol operates on a **Multi-Tenant SaaS Architecture**, strictly isolating data
 ### Prerequisites
 * Node.js (v18+)
 * MetaMask/Rabby extension installed.
-* Configure MetaMask with Tempo Moderato Network:
+* Configure MetaMask with Tempo tesnet (Moderato):
     * RPC URL: https://rpc.moderato.tempo.xyz
     * Chain ID: 42431
 ### Local Deployment
