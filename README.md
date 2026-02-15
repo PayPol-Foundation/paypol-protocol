@@ -116,7 +116,7 @@ PayPol operates on a **Multi-Tenant SaaS Architecture**, strictly isolating data
 ### Local Deployment
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/PayPol-Foundation/paypol-protocol.git](https://github.com/PayPol-Foundation/paypol-protocol.git)
+   git clone https://github.com/PayPol-Foundation/paypol-protocol.git
    cd paypol-protocol/apps/dashboard/paypol-frontend
    ```
 2. Install dependencies:
