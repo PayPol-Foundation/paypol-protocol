@@ -136,7 +136,7 @@ PayPol operates on a **Multi-Tenant SaaS Architecture**, strictly isolating data
 ---
 
 ## 🔒 License & Copyright
-Business Source License 1.1 (BSL-1.1). See [LICENSE] for full terms.
+Business Source License 1.1 (BSL-1.1). See [LICENSE](https://github.com/PayPol-Foundation/paypol-protocol/blob/main/LICENSE) for full terms.
 
 © 2026 PayPol Foundation. All rights reserved.
 
