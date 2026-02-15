@@ -55,26 +55,26 @@ Our vision is to build the ultimate infrastructure for autonomous money across a
 
 ### Phase 2: Advanced Treasury Yield & Privacy (Current)
 - [ ] ZK-Proof Encryption for Hidden Salary Amounts (Use Case 3)
-- [ ] Integration of Idle Treasury Yield Generation (Use Case 6)
+- [ ] Integration of Idle Treasury Yield Generation (Use Case 7)
 - [ ] Cross-chain stablecoin swapping via OpenClaw Routing
 - [ ] Granular Role-Based Access Control (RBAC) for HR and Mid-level Managers
 - [ ] Advanced Financial Analytics & Burn Rate Dashboards
 
 ### Phase 3: Organizational Primitives 
-- [ ] Token Vesting Contracts & Cliff Management (Use Case 3)
-- [ ] Web3 Invoicing System for B2B Contractors (Use Case 5)
+- [ ] Token Vesting Contracts & Cliff Management (Use Case 4)
+- [ ] Web3 Invoicing System for B2B Contractors (Use Case 6)
 - [ ] Decentralized Identity (DID) integration for employee KYC/KYB
 - [ ] Multi-Vault support (Segregating Marketing, Dev, and Ops funds)
 
 ### Phase 4: Fiat Integration & Compliance 
-- [ ] Algorithmic Tax Withholding & Smart Escrow (Use Case 7)
-- [ ] Real-time Crypto-to-Fiat Off-ramp API integration (Use Case 9)
+- [ ] Algorithmic Tax Withholding & Smart Escrow (Use Case 8)
+- [ ] Real-time Crypto-to-Fiat Off-ramp API integration (Use Case 10)
 - [ ] Automated generation of W-8BEN / W-9 equivalent Web3 tax forms
 - [ ] Enterprise API endpoints for QuickBooks and Xero syncing
 
 ### Phase 5: The Fully Agentic Economy 
-- [ ] DAO Bounties & Automated GitHub Escrow (Use Case 4)
-- [ ] AI-Driven Expense Auditing & Micro-reimbursements (Use Case 8)
+- [ ] DAO Bounties & Automated GitHub Escrow (Use Case 5)
+- [ ] AI-Driven Expense Auditing & Micro-reimbursements (Use Case 9)
 - [ ] Fully Autonomous OpenClaw AI for predictive treasury and risk management
 - [ ] Public SDK for third-party dApp integrations
 
