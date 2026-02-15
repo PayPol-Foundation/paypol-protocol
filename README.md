@@ -103,9 +103,10 @@ PayPol operates on a **Multi-Tenant SaaS Architecture**, strictly isolating data
  ┃ ┃ ┣ ⏳ Boardroom Approvals Queue
  ┃ ┃ ┗ 📜 Settled Transaction Histories
  ┃
- ┗ 🔗 Blockchain Layer (Tempo Moderato RPC)
-   ┣ 🏦 PayPol Time-Vault Smart Contract
-   ┗ 🪙 Supported Assets: AlphaUSD, pathUSD, BetaUSD, ThetaUSD
+ ┗ 🔗 Blockchain Integration (Tempo Moderato RPC)
+   ┣ 🏦 PayPol Time-Vault Logic
+   ┣ 🕵️ Solidity ZK-Verifier Contract (Compiled via Noir)
+   ┗ 🪙 Native Stablecoins: AlphaUSD, pathUSD, BetaUSD, ThetaUSD
 ```
 ---
 
