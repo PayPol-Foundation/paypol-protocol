@@ -44,7 +44,7 @@ PayPol is a full-lifecycle organizational primitive for the decentralized era:
 
 Our vision is to build the ultimate infrastructure for autonomous money across a 5-phase rollout.
 
-### Phase 1: Foundation & Core Payroll (Current)
+### Phase 1: Foundation & Core Payroll 
 - ✅ **Multi-Tenant SaaS Gateway (Genesis Workspace Setup)**
 - ✅ **The Boardroom: Multi-Sig EIP-191 Authentication**
 - ✅ **Agentic Autopilot for Recurring Payments**
@@ -52,7 +52,8 @@ Our vision is to build the ultimate infrastructure for autonomous money across a
 - ✅ **One-Click Tax & Accounting Ledger Export**
 - ✅ **Multi-Token Tempo Treasury (`AlphaUSD`, `pathUSD`, `BetaUSD`, `ThetaUSD`)**
 
-### Phase 2: Advanced Treasury & Yield 
+### Phase 2: Advanced Treasury Yield & Privacy (Current)
+- [ ] ZK-Proof Encryption for Hidden Salary Amounts (Use Case 3)
 - [ ] Integration of Idle Treasury Yield Generation (Use Case 6)
 - [ ] Cross-chain stablecoin swapping via OpenClaw Routing
 - [ ] Granular Role-Based Access Control (RBAC) for HR and Mid-level Managers
