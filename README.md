@@ -23,19 +23,20 @@ Built natively on the high-performance **Tempo** and integrated with **OpenClaw*
 
 ---
 
-## 🎯 9 Core Use Cases
+## 🎯 10 Strategic Use Cases
 
-PayPol is designed to handle the entire financial lifecycle of a modern Web3 organization. We are actively building and expanding across 9 primary domains:
+PayPol is a full-lifecycle organizational primitive for the decentralized era:
 
-1. **Automated Mass Payroll (Live):** Seamlessly dispatch thousands of stablecoin transactions to global employees in a single click using CSV bulk routing and Autopilot scheduling.
-2. **Multi-Sig Treasury Management (Live):** Secure organizational funds in a cryptographic Time-Vault. Requires mandatory EIP-191 signatures from verified Master Administrators (The Boardroom) before any liquidity moves.
-3. **Token Vesting & Cliff Unlocks (Upcoming):** Automate token distribution for founders, investors, and advisors with programmatic lock-ups and linear vesting schedules.
-4. **DAO Bounties & Grants (Upcoming):** Create transparent, milestone-based escrow contracts where funds are automatically released upon Git commit verification or decentralized consensus.
-5. **Cross-Border Invoicing & Settlement (Upcoming):** Allow contractors to generate Web3 invoices that automatically trigger a payment request to the organization's Boardroom for approval.
-6. **Idle Treasury Yield Generation (Upcoming):** Put sleeping treasury assets to work by safely routing vaulted funds into low-risk DeFi yield protocols (Staking/Lending) while awaiting payroll execution.
-7. **Algorithmic Tax & Compliance Withholding (Upcoming):** Automatically deduct and escrow a predefined percentage of payroll distributions to ensure real-time local tax compliance for international teams.
-8. **AI-Driven Expense Auditing (Upcoming):** Employees submit receipts; OpenClaw AI agents autonomously verify expenditures against company policies and trigger instant micro-reimbursements.
-9. **Crypto-to-Fiat Off-Ramping (Upcoming):** Native API integrations allowing global remote workers to receive stablecoins that auto-convert directly into their local bank accounts.
+1. **Automated Mass Payroll (Live):** Dispatch bulk stablecoin transactions with CSV routing.
+2. **Multi-Sig Boardroom Security (Live):** EIP-191 signature enforcement for all treasury movements.
+3. **Phantom Shield (Premium Privacy):** Optional ZK-Rollup feature to completely mask transaction amounts on the public ledger, protecting corporate salary data from competitors.
+4. **Token Vesting & Cliff Unlocks:** Programmatic lock-ups for founders and early contributors.
+5. **DAO Milestone Bounties:** Escrow-based grant distributions tied to Git or consensus triggers.
+6. **Cross-Border B2B Invoicing:** Seamless Web3 billing for global contractors.
+7. **Idle Treasury Yield Farming:** Route vaulted assets into DeFi protocols to earn yield.
+8. **Algorithmic Tax Withholding:** Instant escrow of tax percentages during distributions.
+9. **AI-Driven Expense Auditing:** OpenClaw AI agents autonomously verify invoices.
+10. **Crypto-to-Fiat On/Off Ramping:** Built-in gateway for direct-to-bank settlement
 
 ---
 
