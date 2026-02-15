@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/PayPol-Foundation/paypol-protocol/main/public/logo.png" alt="PayPol Logo" width="160" />
+  <img src="./apps/dashboard/paypol-frontend/public/logo.png" alt="PayPol Logo" width="160" />
   
   # PayPol OS
 
@@ -44,12 +44,12 @@ PayPol is designed to handle the entire financial lifecycle of a modern Web3 org
 Our vision is to build the ultimate infrastructure for autonomous money across a 5-phase rollout.
 
 ### Phase 1: Foundation & Core Payroll (Current)
-- [x] Multi-Tenant SaaS Gateway (Genesis Workspace Setup)
-- [x] The Boardroom: Multi-Sig EIP-191 Authentication
-- [x] Agentic Autopilot for Recurring Payments
-- [x] Smart CSV Bulk Dispatch with Address Book Harvest
-- [x] One-Click Tax & Accounting Ledger Export
-- [x] Multi-Token Tempo Treasury (`AlphaUSD`, `pathUSD`, `BetaUSD`, `ThetaUSD`)
+✅ **Multi-Tenant SaaS Gateway (Genesis Workspace Setup)**
+✅ **The Boardroom: Multi-Sig EIP-191 Authentication**
+✅ **Agentic Autopilot for Recurring Payments**
+✅ **Smart CSV Bulk Dispatch with Address Book Harvest**
+✅ **One-Click Tax & Accounting Ledger Export**
+✅ **Multi-Token Tempo Treasury (`AlphaUSD`, `pathUSD`, `BetaUSD`, `ThetaUSD`)**
 
 ### Phase 2: Advanced Treasury & Yield 
 - [ ] Integration of Idle Treasury Yield Generation (Use Case 6)
