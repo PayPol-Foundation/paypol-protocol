@@ -11,6 +11,7 @@
   [![Tempo Network](https://img.shields.io/badge/Network-Tempo_Moderato-blueviolet.svg)](https://tempo.xyz)
   [![Architecture](https://img.shields.io/badge/Architecture-Multi--Tenant_SaaS-success.svg)]()
   [![Web3](https://img.shields.io/badge/Web3-EVM_Compatible-blue.svg)]()
+  [![Privacy: Noir ZK](https://img.shields.io/badge/Privacy-Noir_ZK--Engine-black.svg)]()
 </div>
 
 ---
